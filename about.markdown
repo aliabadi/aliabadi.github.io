@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c6f6140575d9360dd0c2/maintainability)](https://codeclimate.com/github/aliabadi/aliabadi.github.io/maintainability)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm interested in materials science, quantum computing, microcontrollers, 3D printing and making stuff in general.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Most of my ideas were fails but I have had a few hits.  Maybe I'll knock one out of the park one of these days.
