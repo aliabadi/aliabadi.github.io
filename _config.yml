@@ -36,7 +36,8 @@ plugins:
   - jekyll-paginate
 
 remote_theme: jekyll/minima
-  skin: solarized
+minima:
+  skin: solarized-dark
 
 #disqus:
 #  shortname: nickaliabadi
