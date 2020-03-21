@@ -28,11 +28,12 @@ twitter_username: aliabadi
 github_username:  aliabadi
 
 # Build settings
-theme: minima
-  skin: solarized-dark
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+theme: minima
+  skin: solarized-dark
 
 #disqus:
 #  shortname: nickaliabadi
