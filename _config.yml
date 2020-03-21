@@ -32,7 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote-theme: jekyll/minima
+remote_theme: jekyll/minima
   skin: solarized-dark
 
 #disqus:
