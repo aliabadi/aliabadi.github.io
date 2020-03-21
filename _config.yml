@@ -31,9 +31,12 @@ github_username:  aliabadi
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
 remote_theme: jekyll/minima
-  skin: skins/solarized-dark.scss
+  skin: solarized
 
 #disqus:
 #  shortname: nickaliabadi
