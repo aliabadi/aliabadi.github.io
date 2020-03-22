@@ -19,3 +19,7 @@ At first glance, the Pigweed repository only has support for the STM32F429i disc
 Just getting the first part of the code to work was a bit of a chore.   The worst part was having wait for the code to compile, then transfer then transfer to the test device while wait with my multimeter to check the pins.  The already-active CI of Pigweed makes it very appealing and hopefully it won't be too difficult to get working on these units as it would be a huge time saver.  
 
 I already enabled github CI runners on my home linux machine and will document my progress (or lack-thereof) as I try to streamline my embedded development for this project.
+
+As of today I accomplished the following:
+ - [X] Set up github runners that automatically fetch code changes that I push and download them to my linux machine
+ - [X] Started pigweed using the bootstrap, but with gcc-9 and python-3.8 (They only say that those versions work and didn't mention using or trying to use newer versions.  If I can't get some firmware compiled or flashed correctly I'll look here first to see if it might be the cause)
