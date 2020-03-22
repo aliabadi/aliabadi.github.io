@@ -22,4 +22,4 @@ I already enabled github CI runners on my home linux machine and will document m
 
 As of today I accomplished the following:
  - [X] Set up github runners that automatically fetch code changes that I push and download them to my linux machine
- - [X] Started pigweed using the bootstrap, but with gcc-9 and python-3.8 (They only say that those versions work and didn't mention using or trying to use newer versions.  If I can't get some firmware compiled or flashed correctly I'll look here first to see if it might be the cause)
+ - [X] Started pigweed using the bootstrap, but with gcc-9 and python-3.8 (They only say to make sure you have gcc-8 and python-2.7.  Since lots of embedded developers work on legacy systems, I'm going to roll the dice and presume they meant to make sure you have *at least* those versions.  If I can't get some firmware compiled or flashed correctly I'll look here first to see if it might be the cause)
