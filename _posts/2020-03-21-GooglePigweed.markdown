@@ -16,7 +16,7 @@ This is about the time I discovered Google had just released [this library of mo
 
 At first glance, the Pigweed repository only has support for the STM32F429i discovery board, but if once you dig into Google's code review site you can see that there are [developers actively adding code for the esp-idf platform,](https://pigweed-review.googlesource.com/c/pigweed/pigweed/+/1240) which is my build target.
 
-Just getting the first part of the code to work was a bit of a chore.   The worst part was having wait for the code to compile, then transfer then transfer to the test device while wait with my multimeter to check the pins.  The already-active CI of Pigweed makes it very appealing and hopefully it won't be too difficult to get working on these units as it would be a huge time saver.  
+With my current development process, just getting the first part of the code to work is a bit of a chore.   The worst part is having wait for the code to compile, then transfer to the test device while waiting with my multimeter to check the pins.  The always-active CI of Pigweed makes it very appealing and hopefully it won't be too difficult to get working on these units as it would be a huge time saver and very convenient.
 
 I already enabled github CI runners on my home linux machine and will document my progress (or lack-thereof) as I try to streamline my embedded development for this project.
 
